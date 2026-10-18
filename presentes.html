@@ -7,7 +7,7 @@
   <style>
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #e8f5e9; /* Verde claro suave */
+      background-color: #e8f5e9; /* Fundo verde claro suave */
       margin: 0;
       padding: 20px;
       color: #2e3d32;
@@ -15,25 +15,27 @@
     h1 {
       color: #1b4d3e;
       text-align: center;
-      margin-bottom: 30px;
+      margin-bottom: 25px;
+      font-size: 26px;
     }
     h2 {
       color: #276749;
-      margin-top: 40px;
+      margin-top: 30px;
       border-bottom: 2px solid #a3e635;
-      padding-bottom: 8px;
+      padding-bottom: 6px;
+      font-size: 18px;
     }
     .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-      gap: 20px;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Cards compactos */
+      gap: 12px;
       margin-top: 15px;
     }
     .card {
       background: #ffffff;
-      border-radius: 10px;
-      padding: 15px;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+      border-radius: 8px;
+      padding: 10px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.06);
       text-align: center;
       display: flex;
       flex-direction: column;
@@ -41,31 +43,33 @@
       transition: transform 0.2s, box-shadow 0.2s;
     }
     .card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+      transform: translateY(-3px);
+      box-shadow: 0 5px 10px rgba(0,0,0,0.1);
     }
     .card img {
       width: 100%;
-      height: 140px;
+      height: 85px;
       object-fit: cover;
-      border-radius: 6px;
-      margin-bottom: 10px;
+      border-radius: 5px;
+      margin-bottom: 8px;
     }
     .card p {
-      margin: 5px 0;
+      margin: 4px 0;
       font-weight: bold;
-      font-size: 15px;
+      font-size: 12px;
       color: #2d3748;
+      line-height: 1.2;
     }
     .card a {
       display: block;
-      margin-top: 10px;
-      background: #2e7d32; /* Verde para os botões */
+      margin-top: 8px;
+      background: #2e7d32;
       color: #fff;
-      padding: 8px 12px;
+      padding: 6px 8px;
       text-decoration: none;
-      border-radius: 6px;
+      border-radius: 5px;
       font-weight: bold;
+      font-size: 12px;
       transition: background 0.2s;
     }
     .card a:hover {
@@ -80,82 +84,307 @@
   <h2>Colecionáveis</h2>
   <div class="grid">
     <div class="card">
-      <img src="https://via.placeholder.com/200x140?text=Pelucia" alt="Pelúcia Mombo Dino">
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Pelúcia Mombo Dino">
       <p>Pelúcia Mombo Dino</p>
-      <a href="https://orube.lojavirtualnuvem.com.br/produtos/pelucia-mombo-dino/" target="_blank" rel="noopener noreferrer">Ver Produto</a>
+      <a href="https://orube.lojavirtualnuvem.com.br/produtos/pelucia-mombo-dino/" target="_blank" rel="noopener noreferrer">Comprar</a>
     </div>
     <div class="card">
-      <img src="https://via.placeholder.com/200x140?text=Action+Figure" alt="Action Figure">
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Action Figure">
       <p>Action Figure</p>
-      <a href="https://www.mercadolivre.com.br/p/MLB2044914790?matt_tool=38524122&pdp_filters=item_id:MLB7113787966" target="_blank" rel="noopener noreferrer">Ver Produto</a>
+      <a href="https://www.mercadolivre.com.br/p/MLB2044914790?matt_tool=38524122&pdp_filters=item_id:MLB7113787966&ua=PrWcWYKDHVCa38LGlYPOicEO-gjdAlxC3wop93kIkQFjJWRt#origin=share&sid=share&wid=MLB7113787966&action=copy" target="_blank" rel="noopener noreferrer">Comprar</a>
     </div>
     <div class="card">
-      <img src="https://via.placeholder.com/200x140?text=Boneco" alt="Boneco temático">
-      <p>Boneco Temático</p>
-      <a href="https://www.mercadolivre.com.br/p/MLB25512242?matt_tool=38524122&pdp_filters=item_id:MLB3784035341" target="_blank" rel="noopener noreferrer">Ver Produto</a>
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Boneco temático">
+      <p>Boneco temático</p>
+      <a href="https://www.mercadolivre.com.br/p/MLB25512242?matt_tool=38524122&pdp_filters=item_id:MLB3784035341&ua=cpj7dkiXYdX8pTd_3bL6psAzi8heh36OkLBhSDOzxZnODZ_s#origin=share&sid=share&wid=MLB3784035341&action=copy" target="_blank" rel="noopener noreferrer">Comprar</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Colecionável 1">
+      <p>Colecionável 1</p>
+      <a href="https://www.mercadolivre.com.br/p/MLB2074578092?matt_tool=38524122&pdp_filters=item_id:MLB7659492010&ua=me17H7cfbHrnXdcbTeyx7Rui8Juskx2uIEJlFjxFkooJmLbz#origin=share&sid=share&wid=MLB7659492010&action=copy" target="_blank" rel="noopener noreferrer">Comprar</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Colecionável 2">
+      <p>Colecionável 2</p>
+      <a href="https://www.mercadolivre.com.br/up/MLBU4713706518?matt_tool=38524122&pdp_filters=item_id:MLB5049535779&ua=Xibs2S6oFe3MFdUGEYTfaUT5NAMazc-jewIqCoiOfyYcGrXD#origin=share&sid=share&wid=MLB5049535779&action=copy" target="_blank" rel="noopener noreferrer">Comprar</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Colecionável 3">
+      <p>Colecionável 3</p>
+      <a href="https://www.mercadolivre.com.br/p/MLB2064212804?matt_tool=38524122&pdp_filters=item_id:MLB5162438081&ua=t7qFlzanDGbDf5Yl8L5JWhM39x81v3CRN2k19SSXyZXLDiZs#origin=share&sid=share&wid=MLB5162438081&action=copy" target="_blank" rel="noopener noreferrer">Comprar</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Colecionável 4">
+      <p>Colecionável 4</p>
+      <a href="https://www.mercadolivre.com.br/up/MLBU4375867129?matt_tool=38524122&pdp_filters=item_id:MLB4927818099&ua=MrE0-TJdXhI1UcNSgxCMVaYe8awRr1Z6vh2RFybN6di_0SNC#origin=share&sid=share&wid=MLB4927818099&action=copy" target="_blank" rel="noopener noreferrer">Comprar</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Colecionável 5">
+      <p>Colecionável 5</p>
+      <a href="https://www.mercadolivre.com.br/p/MLB2102896192?matt_tool=38524122&pdp_filters=item_id:MLB7642142804&ua=4CNW88yrgqqMdqE3bjn8nLJV_aqIWCHxIgM9y4couqNgOvjv#origin=share&sid=share&wid=MLB7642142804&action=copy" target="_blank" rel="noopener noreferrer">Comprar</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Colecionável 6">
+      <p>Colecionável 6</p>
+      <a href="https://www.mercadolivre.com.br/p/MLB43965298?matt_tool=38524122&pdp_filters=item_id:MLB3947330303&ua=NBkfjYtcbTClQVf5Ri4KByd_ens7Rg-OozbeP2zRR_9SJEQG#origin=share&sid=share&wid=MLB3947330303&action=copy" target="_blank" rel="noopener noreferrer">Comprar</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Colecionável 7">
+      <p>Colecionável 7</p>
+      <a href="https://www.mercadolivre.com.br/p/MLB19427543?matt_tool=38524122&pdp_filters=item_id:MLB4913912930&ua=TL37rXKbetZDTow3YUjNywk7IPib2kS1kNj5Km3fV8yY_oIT#origin=share&sid=share&wid=MLB4913912930&action=copy" target="_blank" rel="noopener noreferrer">Comprar</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Colecionável 8">
+      <p>Colecionável 8</p>
+      <a href="https://www.mercadolivre.com.br/p/MLB66972685?matt_tool=38524122&pdp_filters=item_id:MLB6548552960&ua=ckxPBe6QMSSxxjNK2bnA37MFDY1RPJMicpeJlGbkddDtzssh#origin=share&sid=share&wid=MLB6548552960&action=copy" target="_blank" rel="noopener noreferrer">Comprar</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Colecionável 9">
+      <p>Colecionável 9</p>
+      <a href="https://www.mercadolivre.com.br/p/MLB23156218?matt_tool=38524122&pdp_filters=item_id:MLB3872885523&ua=vfD7x2g6LzVIl8XGedpqAImjjA5g3I5k5yiTO4LIQsdOtrah#origin=share&sid=share&wid=MLB3872885523&action=copy" target="_blank" rel="noopener noreferrer">Comprar</a>
     </div>
   </div>
 
   <h2>Moda</h2>
   <div class="grid">
     <div class="card">
-      <img src="https://via.placeholder.com/200x140?text=Moletom" alt="Moletom Azedo">
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Moletom Azedo">
       <p>Moletom Azedo</p>
-      <a href="https://mundotorajo.com.br/produtos/moletom-azedo-10w5d/" target="_blank" rel="noopener noreferrer">Ver Produto</a>
+      <a href="https://mundotorajo.com.br/produtos/moletom-azedo-10w5d/" target="_blank" rel="noopener noreferrer">Comprar</a>
     </div>
   </div>
 
   <h2>Funcionais pedagógicos</h2>
   <div class="grid">
     <div class="card">
-      <img src="https://via.placeholder.com/200x140?text=Livro" alt="Livro caça-palavras">
-      <p>Livro Caça-Palavras</p>
-      <a href="https://www.mercadolivre.com.br/p/MLB2028868511?matt_tool=38524122&pdp_filters=item_id:MLB4832214533" target="_blank" rel="noopener noreferrer">Ver Produto</a>
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Livro caça-palavras">
+      <p>Livro caça-palavras</p>
+      <a href="https://www.mercadolivre.com.br/p/MLB2028868511?matt_tool=38524122&pdp_filters=item_id:MLB4832214533&ua=O5YaEATx-7LXmBnVB3IdCBKb5b4s3Ae_jz7hd5mG85VRlGSf#origin=share&sid=share&wid=MLB4832214533&action=copy" target="_blank" rel="noopener noreferrer">Comprar</a>
     </div>
   </div>
 
   <h2>Arte e Criatividade</h2>
   <div class="grid">
     <div class="card">
-      <img src="https://via.placeholder.com/200x140?text=Kit+Pintura" alt="Kit pintura infantil">
-      <p>Kit Pintura Infantil</p>
-      <a href="https://br.shp.ee/GF63EEuE" target="_blank" rel="noopener noreferrer">Ver Produto</a>
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Kit pintura infantil">
+      <p>Kit pintura infantil</p>
+      <a href="https://br.shp.ee/GF63EEuE" target="_blank" rel="noopener noreferrer">Comprar</a>
     </div>
     <div class="card">
-      <img src="https://via.placeholder.com/200x140?text=Material+Escolar" alt="Material escolar criativo">
-      <p>Material Escolar Criativo</p>
-      <a href="https://br.shp.ee/3X1N1Ffj" target="_blank" rel="noopener noreferrer">Ver Produto</a>
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Material escolar criativo 1">
+      <p>Material escolar criativo 1</p>
+      <a href="https://br.shp.ee/3X1N1Ffj" target="_blank" rel="noopener noreferrer">Comprar</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Material escolar criativo 2">
+      <p>Material escolar criativo 2</p>
+      <a href="https://br.shp.ee/sm2nhVJC" target="_blank" rel="noopener noreferrer">Comprar</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Material escolar criativo 3">
+      <p>Material escolar criativo 3</p>
+      <a href="https://br.shp.ee/SQrnU1e8" target="_blank" rel="noopener noreferrer">Comprar</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Material escolar criativo 4">
+      <p>Material escolar criativo 4</p>
+      <a href="https://br.shp.ee/V2otimAp" target="_blank" rel="noopener noreferrer">Comprar</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Material escolar criativo 5">
+      <p>Material escolar criativo 5</p>
+      <a href="https://br.shp.ee/xPdR7RLV" target="_blank" rel="noopener noreferrer">Comprar</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Material de arte 6">
+      <p>Material de arte 6</p>
+      <a href="https://br.shp.ee/VaVpBisp" target="_blank" rel="noopener noreferrer">Comprar</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Material de arte 7">
+      <p>Material de arte 7</p>
+      <a href="https://br.shp.ee/YhvbSEPh" target="_blank" rel="noopener noreferrer">Comprar</a>
     </div>
   </div>
 
   <h2>Decoração e Quarto</h2>
   <div class="grid">
     <div class="card">
-      <img src="https://via.placeholder.com/200x140?text=Luminaria" alt="Luminária temática">
-      <p>Luminária Temática</p>
-      <a href="https://br.shp.ee/k6y1DRsT" target="_blank" rel="noopener noreferrer">Ver Produto</a>
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Luminária temática">
+      <p>Luminária temática</p>
+      <a href="https://br.shp.ee/k6y1DRsT" target="_blank" rel="noopener noreferrer">Comprar</a>
     </div>
     <div class="card">
-      <img src="https://via.placeholder.com/200x140?text=Decoracao" alt="Decoração infantil">
-      <p>Decoração Infantil</p>
-      <a href="https://br.shp.ee/FVzhaCRK" target="_blank" rel="noopener noreferrer">Ver Produto</a>
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Decoração infantil">
+      <p>Decoração infantil</p>
+      <a href="https://br.shp.ee/FVzhaCRK" target="_blank" rel="noopener noreferrer">Comprar</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Decoração / Quarto">
+      <p>Decoração / Quarto</p>
+      <a href="https://www.mercadolivre.com.br/p/MLB30159900?matt_tool=38524122&pdp_filters=item_id:MLB3916693657&ua=yAZtIJ2vAMtQyiIQJ-lu0dbz2B_8n1OZfV8eS8-MM-u7H1Si#origin=share&sid=share&wid=MLB3916693657&action=copy" target="_blank" rel="noopener noreferrer">Comprar</a>
     </div>
   </div>
 
   <h2>Estudo e Rotina Escolar</h2>
   <div class="grid">
     <div class="card">
-      <img src="https://via.placeholder.com/200x140?text=Mochila" alt="Mochila escolar">
-      <p>Mochila Escolar</p>
-      <a href="https://br.shp.ee/JFSvNtVQ" target="_blank" rel="noopener noreferrer">Ver Produto</a>
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Mochila escolar">
+      <p>Mochila escolar</p>
+      <a href="https://br.shp.ee/JFSvNtVQ" target="_blank" rel="noopener noreferrer">Comprar</a>
     </div>
     <div class="card">
-      <img src="https://via.placeholder.com/200x140?text=Estojo" alt="Estojo escolar">
-      <p>Estojo Escolar</p>
-      <a href="https://br.shp.ee/znWB2AUA" target="_blank" rel="noopener noreferrer">Ver Produto</a>
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Estojo escolar">
+      <p>Estojo escolar</p>
+      <a href="https://br.shp.ee/znWB2AUA" target="_blank" rel="noopener noreferrer">Comprar</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Kit escolar 1">
+      <p>Kit escolar 1</p>
+      <a href="https://br.shp.ee/ExJBkN8R" target="_blank" rel="noopener noreferrer">Comprar</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Kit escolar 2">
+      <p>Kit escolar 2</p>
+      <a href="https://br.shp.ee/8tmg71eV" target="_blank" rel="noopener noreferrer">Comprar</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Kit escolar 3">
+      <p>Kit escolar 3</p>
+      <a href="https://br.shp.ee/hQwSM6q8" target="_blank" rel="noopener noreferrer">Comprar</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Kit escolar 4">
+      <p>Kit escolar 4</p>
+      <a href="https://br.shp.ee/K3QYyaou" target="_blank" rel="noopener noreferrer">Comprar</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Kit escolar 5">
+      <p>Kit escolar 5</p>
+      <a href="https://br.shp.ee/Hy625bxA" target="_blank" rel="noopener noreferrer">Comprar</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Kit escolar 6">
+      <p>Kit escolar 6</p>
+      <a href="https://br.shp.ee/N1kMXnjG" target="_blank" rel="noopener noreferrer">Comprar</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Kit escolar 7">
+      <p>Kit escolar 7</p>
+      <a href="https://br.shp.ee/2Nn2eoHL" target="_blank" rel="noopener noreferrer">Comprar</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Kit escolar 8">
+      <p>Kit escolar 8</p>
+      <a href="https://br.shp.ee/NnjXiMPH" target="_blank" rel="noopener noreferrer">Comprar</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Kit escolar 9">
+      <p>Kit escolar 9</p>
+      <a href="https://br.shp.ee/Spd1m2x3" target="_blank" rel="noopener noreferrer">Comprar</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Kit escolar 10">
+      <p>Kit escolar 10</p>
+      <a href="https://br.shp.ee/4Qdr1LuP" target="_blank" rel="noopener noreferrer">Comprar</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Kit escolar 11">
+      <p>Kit escolar 11</p>
+      <a href="https://br.shp.ee/hxvLfyUv" target="_blank" rel="noopener noreferrer">Comprar</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Kit escolar 12">
+      <p>Kit escolar 12</p>
+      <a href="https://br.shp.ee/GsV6ktLR" target="_blank" rel="noopener noreferrer">Comprar</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Kit escolar 13">
+      <p>Kit escolar 13</p>
+      <a href="https://br.shp.ee/vWdtZaUR" target="_blank" rel="noopener noreferrer">Comprar</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Kit escolar 14">
+      <p>Kit escolar 14</p>
+      <a href="https://br.shp.ee/irVUJqQQ" target="_blank" rel="noopener noreferrer">Comprar</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Kit escolar 15">
+      <p>Kit escolar 15</p>
+      <a href="https://br.shp.ee/GgYZWTo8" target="_blank" rel="noopener noreferrer">Comprar</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Kit escolar 16">
+      <p>Kit escolar 16</p>
+      <a href="https://br.shp.ee/RmKCBg4Y" target="_blank" rel="noopener noreferrer">Comprar</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Kit escolar 17">
+      <p>Kit escolar 17</p>
+      <a href="https://br.shp.ee/38N3Vuq2" target="_blank" rel="noopener noreferrer">Comprar</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Kit escolar 18">
+      <p>Kit escolar 18</p>
+      <a href="https://br.shp.ee/f35wXeXv" target="_blank" rel="noopener noreferrer">Comprar</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Kit escolar 19">
+      <p>Kit escolar 19</p>
+      <a href="https://br.shp.ee/CDybUd3E" target="_blank" rel="noopener noreferrer">Comprar</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Kit escolar 20">
+      <p>Kit escolar 20</p>
+      <a href="https://br.shp.ee/W3JwGde4" target="_blank" rel="noopener noreferrer">Comprar</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Kit escolar 21">
+      <p>Kit escolar 21</p>
+      <a href="https://br.shp.ee/cdUyMpFV" target="_blank" rel="noopener noreferrer">Comprar</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Kit escolar 22">
+      <p>Kit escolar 22</p>
+      <a href="https://br.shp.ee/6kTwk5Tb" target="_blank" rel="noopener noreferrer">Comprar</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Item escolar 23">
+      <p>Item escolar 23</p>
+      <a href="https://br.shp.ee/mJ11K7qu" target="_blank" rel="noopener noreferrer">Comprar</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Item escolar 24">
+      <p>Item escolar 24</p>
+      <a href="https://br.shp.ee/HqRbarJD" target="_blank" rel="noopener noreferrer">Comprar</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Item escolar 25">
+      <p>Item escolar 25</p>
+      <a href="https://br.shp.ee/9PobfkZq" target="_blank" rel="noopener noreferrer">Comprar</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Item escolar 26">
+      <p>Item escolar 26</p>
+      <a href="https://br.shp.ee/JhbWdaPv" target="_blank" rel="noopener noreferrer">Comprar</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Item escolar 27">
+      <p>Item escolar 27</p>
+      <a href="https://br.shp.ee/eBdgVyfr" target="_blank" rel="noopener noreferrer">Comprar</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Item escolar 28">
+      <p>Item escolar 28</p>
+      <a href="https://br.shp.ee/LRX8BBbp" target="_blank" rel="noopener noreferrer">Comprar</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/150x85?text=Presente" alt="Item escolar 29">
+      <p>Item escolar 29</p>
+      <a href="https://www.mercadolivre.com.br/up/MLBU3320156430?matt_tool=38524122&pdp_filters=item_id:MLB5987906756&ua=xFVkZ0rUkKhvtXJf9HZRJ-QcWAFNJKMPJNUsJ38Be1vup4nN#origin=share&sid=share&wid=MLB5987906756&action=copy" target="_blank" rel="noopener noreferrer">Comprar</a>
     </div>
   </div>
 
 </body>
-  </html>
-  
+</html>
+
